@@ -29,6 +29,11 @@ private:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement", meta = (AllowPrivateAccess = "true"))
 		float Speed = 200.0f; 
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement", meta = (AllowPrivateAccess = "true"))
+		float TurnRate = 45.0f;
+
 	void Move(float Value);
+
+	void Turn(float Value);
 	
 };
