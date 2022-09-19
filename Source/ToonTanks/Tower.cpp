@@ -20,8 +20,6 @@ void ATower::Tick(float DeltaTime)
 		}
 	}
 	
-
-
 }
 
 void ATower::BeginPlay()
